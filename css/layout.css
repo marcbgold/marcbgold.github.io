@@ -61,6 +61,8 @@ nav a:hover {
 	text-decoration: underline;
 }
 
+/*main title section*/
+
 .container {
 	display: grid;
 	width: 100%;
@@ -81,8 +83,10 @@ main {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 90vh;
+	padding-top: 100px;
 }
+
+/*about me section*/
 
 .about-me {
 	display: grid;
@@ -105,9 +109,6 @@ main {
 .about-me-element {
 	display: grid;
 	grid-template-rows: 1fr 9fr;
-	/*display: flex;*/
-	/*flex-direction: column;*/
-	/*justify-content: center;*/
 	align-items: center;
 	height: 300px;
 	overflow: hidden;
@@ -119,7 +120,8 @@ main {
 	width: 100%;
 }
 
-.bio {
+.bio .tech-inventory .contact {
+	display: flex;
 	flex-direction: column;
 }
 
@@ -134,22 +136,35 @@ main {
 	align-items: center;
 }
 
-.tech-inventory {
-	flex-direction: column;
-	/*display: grid;
-	grid-template: repeat(4, 1fr) / repeat(2, 1fr);*/
-}
-
 .tech-inventory-header {
 	display: flex;
 	justify-content: center;
-	grid-column: 1 / -1;
 }
 
 .tech-inventory p {
 	display: flex;
 	justify-content: center;
 }
+
+.contact-header {
+	display: flex;
+	justify-content: center;
+}
+
+.contact a {
+	font-size: 1.5em;
+}
+
+.contact p {
+	display: flex;
+	justify-content: center;
+}
+
+.email-link {
+	font-size: 1rem;
+}
+
+/*projects section*/
 
 .projects {
 	display: grid;
@@ -166,6 +181,14 @@ main {
 .projects-content {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
+}
+
+.projects-element {
+	display: grid;
+	grid-template-rows: 1fr 5fr 4fr;
+	align-items: center;
+	height: 300px;
+	overflow: hidden;
 }
 
 footer {
