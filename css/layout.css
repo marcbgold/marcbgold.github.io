@@ -61,7 +61,7 @@ nav a:hover {
 	text-decoration: underline;
 }
 
-/*main title section*/
+/*main title layout*/
 
 .container {
 	display: grid;
@@ -86,19 +86,21 @@ main {
 	padding-top: 100px;
 }
 
-/*about me section*/
+/*main subsection layout*/
 
-.about-me {
+.main-subsection {
 	display: grid;
 	grid-gap: var(--grid-gap);
 	padding-top: 100px;
 }
 
-.about-me-header {
+.main-subsection-header {
 	display: flex;
 	justify-content: center;
 	padding-top: 1rem;
 }
+
+/*about me layout*/
 
 .about-me-content {
 	display: grid;
@@ -120,75 +122,41 @@ main {
 	width: 100%;
 }
 
-.bio .tech-inventory .contact {
-	display: flex;
-	flex-direction: column;
-}
-
-.bio-header {
+.about-me-element-header {
 	display: flex;
 	justify-content: center;
 }
 
-.bio-list {
+.about-me-element-list {
 	display: flex;
-	flex-direction: column; 
+	flex-direction: column;
 	align-items: center;
 }
 
-.tech-inventory-header {
-	display: flex;
-	justify-content: center;
-}
-
-.tech-inventory p {
-	display: flex;
-	justify-content: center;
-}
-
-.contact-header {
-	display: flex;
-	justify-content: center;
-}
-
-.contact a {
-	font-size: 1.5em;
-}
-
-.contact p {
-	display: flex;
-	justify-content: center;
-}
-
-.email-link {
-	font-size: 1rem;
-}
-
-/*projects section*/
-
-.projects {
-	display: grid;
-	grid-gap: var(--grid-gap);
-	padding-top: 100px;
-}
-
-.projects-header {
-	display: flex;
-	justify-content: center;
-	padding-top: 1rem;
-}
+/*projects layout*/
 
 .projects-content {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(2, 1fr);
 }
 
 .projects-element {
 	display: grid;
-	grid-template-rows: 1fr 5fr 4fr;
+	grid-template-rows: auto auto 5fr;
+	grid-gap: var(--grid-gap);
 	align-items: center;
-	height: 300px;
 	overflow: hidden;
+}
+
+.projects-element img {
+	display: flex;
+	flex-shrink: 1;
+	width: 100%;
+	height: 100%;
+}
+
+.pet-shelter-description {
+	padding-bottom: 10px;
 }
 
 footer {
