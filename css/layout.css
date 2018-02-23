@@ -1,0 +1,32 @@
+body{
+    left: 0;
+    top: 0;
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+}
+
+.container {
+	z-index: 0;
+	position: absolute;
+
+}
+
+.about-me {
+	padding-top: 100px;
+}
+
+.projects {
+	padding-top: 100px;
+}
