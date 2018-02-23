@@ -1,9 +1,14 @@
-#header {
-	background-color: #ffa;
+header {
+	color: white;
+	background-color: royalblue;
 }
 
 nav {
-	font-size: 1.5em;
+	font-size: 1.4rem;
+}
+
+nav a {
+	text-decoration: none;
 }
 
 .about-me {

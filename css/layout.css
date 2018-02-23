@@ -4,12 +4,16 @@
     padding: 0;
 }
 
+:root {
+
+}
+
 body{
     left: 0;
     top: 0;
 }
 
-#header {
+header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -21,25 +25,47 @@ body{
 	left: 0;
 }
 
+.header-left-side {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: 2rem;
+	font-size: 3.25rem;
+}
+
 .header-name-and-title {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
-	margin-left: 2rem;
+	font-size: 1.1rem;
+	margin-left: 0.75rem;
+
 }
 
-.header-name-and-title h3{
-	margin: 0.1;
+.header-name-and-title h2 {
+	padding-bottom: 0.5rem;
 }
 
 nav {
 	margin-right: 2rem;
 }
 
+nav a {
+	text-decoration: none;
+	margin: 0 0.1rem;
+	color: white;
+	background: royalblue;
+	padding: 0.5rem;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
 .container {
 	display: grid;
 	width: 100%;
 	grid-template-rows: auto auto;
+	grid-template-columns: 1fr 9fr 1fr;
 	z-index: 0;
 	position: absolute;
 	margin-top: 100px;
@@ -47,19 +73,40 @@ nav {
 
 main {
 	display: grid;
+	grid-column: 2 / 3;
 }
 
-.page-title {
+.main-page-title {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-top: 100px;
+	height: 90vh;
 }
 
 .about-me {
+	display: grid;
+	grid-gap: ;
 	padding-top: 100px;
 }
 
+.about-me-header {
+	display: flex;
+	justify-content: center;
+	padding-top: 1rem;
+}
+
 .projects {
+	display: grid;
 	padding-top: 100px;
+}
+
+.projects-header {
+	display: flex;
+	justify-content: center;
+	padding-top: 1rem;
+}
+
+footer {
+	padding-top: 100px;
+	grid-column-start: 2;
 }
