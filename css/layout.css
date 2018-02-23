@@ -21,15 +21,13 @@ header {
 	width: 100%;
 	position: fixed;
 	z-index: 1;
-	top: 0;
-	left: 0;
+	padding: 2rem;
 }
 
 .header-left-side {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	margin-left: 2rem;
 	font-size: 3.25rem;
 }
 
@@ -45,8 +43,12 @@ header {
 	padding-bottom: 0.5rem;
 }
 
-nav {
-	margin-right: 2rem;
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 nav a {
@@ -55,10 +57,6 @@ nav a {
 	color: white;
 	background: royalblue;
 	padding: 0.5rem;
-}
-
-nav a:hover {
-	text-decoration: underline;
 }
 
 /*main title layout*/
@@ -86,18 +84,29 @@ main {
 	padding-top: 100px;
 }
 
-/*main subsection layout*/
+/*main section layout*/
 
-.main-subsection {
+.main-section {
 	display: grid;
 	grid-gap: var(--grid-gap);
 	padding-top: 100px;
 }
 
-.main-subsection-header {
+.main-section-header {
 	display: flex;
 	justify-content: center;
 	padding-top: 1rem;
+}
+
+.element-header {
+	display: flex;
+	justify-content: center;
+}
+
+.element-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 /*about me layout*/
@@ -122,30 +131,17 @@ main {
 	width: 100%;
 }
 
-.about-me-element-header {
-	display: flex;
-	justify-content: center;
-}
-
-.about-me-element-list {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
 /*projects layout*/
 
 .projects-content {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
+	grid-gap: var(--grid-gap);
 }
 
 .projects-element {
 	display: grid;
-	grid-template-rows: auto auto 5fr;
 	grid-gap: var(--grid-gap);
-	align-items: center;
-	overflow: hidden;
 }
 
 .projects-element img {
@@ -155,11 +151,14 @@ main {
 	height: 100%;
 }
 
-.pet-shelter-description {
+.projects-element-description {
 	padding-bottom: 10px;
 }
 
 footer {
-	padding-top: 100px;
-	grid-column-start: 2;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2rem;
+	padding: 2rem;
+	grid-column: 1 / -1;
 }

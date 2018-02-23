@@ -1,4 +1,4 @@
-header {
+header, footer {
 	color: white;
 	background-color: royalblue;
 }
@@ -7,11 +7,11 @@ nav {
 	font-size: 1.4rem;
 }
 
-nav a {
+a {
 	text-decoration: none;
 }
 
-.main-subsection {
+.main-section {
 	color: blue;
 	font-size: 1.2em;
 }
@@ -20,19 +20,26 @@ nav a {
 	font-size: 0.9em;
 }
 
-.about-me-element-list {
+.element-list {
 	color: black;
 } 
+
+.element-list a {
+	color: darkblue;
+}
+.element-list a:visited {
+	color: darkblue;
+}
 
 .projects {
 	color: red;
 	font-size: 1.2em;
 }
 
-.projects-list {
-	list-style: none;
-}
-
 .scrolling-test {
 	font-size: 3em;
+}
+
+footer a:visited {
+	color: white;
 }
