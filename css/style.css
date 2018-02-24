@@ -3,6 +3,14 @@ header, footer {
 	background-color: royalblue;
 }
 
+header, .about-me-element, .projects-element {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer {
+	box-shadow: 4px 6px 4px 8px rgba(0, 0, 0, 0.2), 6px 12px 6px 20px rgba(0, 0, 0, 0.19);
+}
+
 a {
 	text-decoration: none;
 }
@@ -32,15 +40,15 @@ nav a:hover, footer a:hover {
 	color: black;
 } 
 
-.element-list a {
+.main-section a {
 	color: darkblue;
 }
 
-.element-list a:visited {
+.main-section a:visited {
 	color: darkblue;
 }
 
-.element-list a:hover {
+.main-section a:hover {
 	text-decoration: none;
 	color: royalblue;
 }
@@ -62,9 +70,4 @@ nav a:hover, footer a:hover {
 	border-color: lightgray;
 	background-color: white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.projects {
-	color: red;
-	font-size: 1.2em;
 }
