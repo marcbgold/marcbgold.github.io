@@ -57,12 +57,6 @@ nav a:hover, footer a:hover {
 	color: royalblue;
 }
 
-.about-me-element img, .projects-element img {
-	border-style: solid;
-	border-width: thin;
-	border-color: lightgray;
-}
-
 .about-me-content {
 	font-size: 0.9em;
 }
@@ -73,5 +67,10 @@ nav a:hover, footer a:hover {
 	border-width: thin;
 	border-color: lightgray;
 	background-color: white;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about-me-element img, .projects-element img {
+	border-style: solid;
+	border-width: thin;
+	border-color: lightgray;
 }
