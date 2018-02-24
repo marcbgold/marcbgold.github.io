@@ -43,16 +43,7 @@ header {
 	padding-bottom: 0.5rem;
 }
 
-a {
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: underline;
-}
-
 nav a {
-	text-decoration: none;
 	margin: 0 0.1rem;
 	color: white;
 	background: royalblue;
@@ -120,25 +111,21 @@ main {
 
 .about-me-element {
 	display: grid;
-	grid-template-rows: 1fr 9fr;
-	align-items: center;
-	height: 300px;
+	grid-template-rows: auto auto;
+	align-items: flex-start;
+	max-height: 310px;
 	overflow: hidden;
 	text-align: center;
+}
+
+.about-me-img-element {
+	overflow: hidden;
 }
 
 .about-me-element img {
 	align-self: flex-start;
 	overflow: hidden;
 	width: 100%;
-}
-
-.about-me-element .element-list {
-	margin-bottom: 3rem;
-}
-
-.bio-mission {
-	text-align: center;
 }
 
 /*projects layout*/

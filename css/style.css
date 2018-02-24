@@ -3,12 +3,20 @@ header, footer {
 	background-color: royalblue;
 }
 
+a {
+	text-decoration: none;
+}
+
 nav {
 	font-size: 1.4rem;
 }
 
-a {
-	text-decoration: none;
+nav a, footer a {
+	color: white;
+}
+
+nav a:hover, footer a:hover {
+	color: #b3d1ff;
 }
 
 .container {
@@ -27,8 +35,14 @@ a {
 .element-list a {
 	color: darkblue;
 }
+
 .element-list a:visited {
 	color: darkblue;
+}
+
+.element-list a:hover {
+	text-decoration: none;
+	color: royalblue;
 }
 
 .about-me-element img, .projects-element img {
@@ -53,8 +67,4 @@ a {
 .projects {
 	color: red;
 	font-size: 1.2em;
-}
-
-footer a:visited {
-	color: white;
 }
