@@ -1,3 +1,7 @@
+* {
+	font-family: "Mukta Mahee", sans-serif;
+}
+
 header, footer {
 	color: white;
 	background-color: royalblue;
@@ -32,7 +36,7 @@ nav a:hover, footer a:hover {
 }
 
 .main-section {
-	color: blue;
+	color: royalblue;
 	font-size: 1.2em;
 }
 
@@ -41,11 +45,11 @@ nav a:hover, footer a:hover {
 } 
 
 .main-section a {
-	color: darkblue;
+	color: #5500ff;
 }
 
 .main-section a:visited {
-	color: darkblue;
+	color: #5500ff;
 }
 
 .main-section a:hover {
