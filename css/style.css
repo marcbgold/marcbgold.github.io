@@ -11,13 +11,13 @@ a {
 	text-decoration: none;
 }
 
+.container {
+	background-color: #e6f0ff;
+}
+
 .main-section {
 	color: blue;
 	font-size: 1.2em;
-}
-
-.about-me-content {
-	font-size: 0.9em;
 }
 
 .element-list {
@@ -31,13 +31,28 @@ a {
 	color: darkblue;
 }
 
+.about-me-element img, .projects-element img {
+	border-style: solid;
+	border-width: thin;
+	border-color: lightgray;
+}
+
+.about-me-content {
+	font-size: 0.9em;
+}
+
+.about-me-element, .projects-element {
+	padding: 1rem;
+	border-style: solid;
+	border-width: thin;
+	border-color: lightgray;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .projects {
 	color: red;
 	font-size: 1.2em;
-}
-
-.scrolling-test {
-	font-size: 3em;
 }
 
 footer a:visited {
