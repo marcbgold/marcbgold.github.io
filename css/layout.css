@@ -106,6 +106,7 @@ main {
 .element-list {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 }
 
@@ -129,6 +130,14 @@ main {
 	align-self: flex-start;
 	overflow: hidden;
 	width: 100%;
+}
+
+.about-me-element > .element-list {
+	margin-bottom: 3rem;
+}
+
+.bio-mission {
+	text-align: center;
 }
 
 /*projects layout*/
