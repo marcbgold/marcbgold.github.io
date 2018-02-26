@@ -45,16 +45,16 @@ nav a:hover, footer a:hover {
 } 
 
 .main-section a {
-	color: #5500ff;
+	color: #6600cc;
 }
 
 .main-section a:visited {
-	color: #5500ff;
+	color: #6600cc;
 }
 
 .main-section a:hover {
 	text-decoration: none;
-	color: royalblue;
+	color: #ffcc00;
 }
 
 .about-me-content {
