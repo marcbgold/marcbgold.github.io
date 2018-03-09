@@ -155,10 +155,16 @@ main {
 
 /*projects layout*/
 
+.projects-grid {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-gap: var(--grid-gap);
+}
+
 .projects-content {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
 	grid-gap: var(--grid-gap);
+	grid-column-start: 2;
 }
 
 .projects-element {
@@ -171,6 +177,10 @@ main {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+
+.element-list.hidden {
+	display: none;
 }
 
 .element-header {
