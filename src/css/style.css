@@ -74,3 +74,8 @@ nav a:hover, footer a:hover {
 	border-width: thin;
 	border-color: lightgray;
 }
+
+.project-details-button {
+	color: white;
+	background-color: royalblue;
+}

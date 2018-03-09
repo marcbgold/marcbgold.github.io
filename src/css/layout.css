@@ -39,9 +39,33 @@ header {
 
 }
 
+nav {
+	display: flex;
+	justify-content: center;
+}
+
+.nav-links.hidden {
+	opacity: 0;
+	pointer-events: none;
+   	cursor: default;
+	transition: 0.25s;
+}
+
+.nav-links {
+	display: flex;
+	transition: 0.25s;
+}
+
 nav a {
 	margin: 0 0.1rem;
 	padding: 0.5rem;
+	display: flex;
+	align-items: center;
+}
+
+nav img {
+	margin: 0 0.1rem;
+	padding: 0.5rem;	
 }
 
 /*main title layout*/
@@ -149,11 +173,24 @@ main {
 	justify-content: space-between;
 }
 
-.projects-element img {
+.element-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.projects-image img {
 	display: flex;
 	flex-shrink: 1;
 	width: 100%;
 	height: 100%;
+}
+
+.project-details-button {
+	justify-content: center;
+	font-size: 1.05rem;
+	padding: 0.1em 0.3em;
+	margin-bottom: 5px;
 }
 
 .projects-element-description {

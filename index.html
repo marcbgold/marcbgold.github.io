@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Marc Gold - Professional Portfolio</title>
 
-    <link rel="stylesheet" href="./css/layout.css">
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/layout.css">
+    <link rel="stylesheet" href="./src/css/style.css">
 </head>
 <body>
     <header>
@@ -21,8 +21,11 @@
             </div>
         </div>
         <nav>
-            <a href="#about-me">About Me</a>
-            <a href="#projects">Projects</a>
+            <div class="nav-links hidden">
+                <a href="#about-me">About Me</a>
+                <a href="#projects">Projects</a>
+            </div>
+            <img class="nav-icon" src="./images/hamburger-menu-icon.png">
         </nav>
     </header>
 
@@ -81,7 +84,10 @@
                     <div class="projects-content">
 
                         <article class="projects-element">
-                            <h3 class="element-header"><a href="https://github.com/marcbgold/virtual-pets-amok">Virtual Pet Shelter</a></h3>
+                            <span class="element-header">
+                                <h3><a href="https://github.com/marcbgold/virtual-pets-amok">Virtual Pet Shelter</a></h3>
+                                <button class="project-details-button">Show Details</button>
+                            </span>
                             <div class="element-list">
                                 <p class="projects-element-description"><strong>Description:</strong> Game where the player is in charge of running a shelter for virtual cats and dogs.  Pets can be either organic or robotic with different stats for each, and will respond to player inputs.  Don't let them get too sick, or the whole shelter will get shut down!</p>
                                 <p><strong>Tools Used:</strong> Java 8, Git, TDD, OOP </p>
@@ -92,7 +98,10 @@
                         </article>
 
                         <article class="projects-element">
-                            <h3 class="element-header"><a href="https://github.com/marcbgold/reviews">Video Game Review Website</a></h3>
+                            <span class="element-header">
+                                <h3><a href="https://github.com/marcbgold/reviews">Video Game Review Website</a></h3>
+                                <button class="project-details-button">Show Details</button>
+                            </span>
                             <div class="element-list">
                                 <p class="projects-element-description"><strong>Description:</strong> Website housing humorous video game reviews in the form of haikus.  Uses Spring framework to dynamically generate individual review pages from a single HTML template. </p>
                                 <p><strong>Tools Used:</strong> Java 8, Spring, HTML5, Git, TDD, OOP </p>
@@ -103,7 +112,10 @@
                         </article>
 
                         <article class="projects-element">
-                            <h3 class="element-header"><a href="https://github.com/marcbgold/hospital">Hospital Management System</a></h3>
+                            <span class="element-header">
+                                <h3><a href="https://github.com/marcbgold/hospital">Hospital Management System</a></h3>
+                                <button class="project-details-button">Show Details</button>
+                            </span>
                             <div class="element-list">
                                 <p class="projects-element-description"><strong>Description:</strong> App demonstrating a simple employee management system for a hospital.  User can search by name or unique ID number, as well as add and remove employees from the roster.  User can also display all employees with specific capabilities.</p>
                                 <p><strong>Tools Used:</strong> Java 8, Git, TDD, OOP </p>
@@ -121,5 +133,6 @@
                 <p>©2018</p>
             </footer>
         </div>
+        <script src="./src/js/app.js"></script>
     </body>
     </html>
