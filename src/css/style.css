@@ -75,7 +75,7 @@ nav a:hover, footer a:hover {
 	border-color: lightgray;
 }
 
-.project-details-button {
+.profile-button, .project-details-button {
 	color: white;
 	background-color: royalblue;
 }

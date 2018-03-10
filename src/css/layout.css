@@ -122,14 +122,26 @@ main {
 /*about me layout*/
 
 .about-me-content {
-	display: grid;
-	grid-gap: var(--grid-gap);
-	grid-template-columns: repeat(4, 1fr);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.grid-centering {
+.profile-button, .project-details-button {
+	justify-content: center;
+	font-size: 1.05rem;
+	padding: 0.1em;
+	margin-bottom: 5px;
+	width: 8em;
+}
+
+/*.grid-centering {
 	display: flex;
 	justify-content: center;
+}*/
+
+.about-me-header {
+	align-self: center;
 }
 
 .about-me-element {
@@ -144,7 +156,9 @@ main {
 }
 
 .about-me-img-element {
-	overflow: hidden;
+	flex-shrink: 1;
+	max-height: 310px;
+	max-width: 310px;
 }
 
 .about-me-element img {
@@ -194,13 +208,6 @@ main {
 	flex-shrink: 1;
 	width: 100%;
 	height: 100%;
-}
-
-.project-details-button {
-	justify-content: center;
-	font-size: 1.05rem;
-	padding: 0.1em 0.3em;
-	margin-bottom: 5px;
 }
 
 .projects-element-description {
