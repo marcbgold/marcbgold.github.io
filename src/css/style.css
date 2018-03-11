@@ -31,6 +31,14 @@ nav a:hover, footer a:hover {
 	color: #b3d1ff;
 }
 
+.nav-links.hidden {
+	transition: 0.25s;
+}
+
+.nav-links {
+	transition: 0.25s;
+}
+
 .container {
 	background-color: #e6f0ff;
 }

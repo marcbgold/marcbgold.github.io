@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./src/css/layout.css">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/modal.css">
+    <link rel="stylesheet" href="./src/css/carousel.css">
 </head>
 <body>
     <header>
@@ -48,8 +49,8 @@
                                 <h2>So who is this guy, anyway?</h2>
                             </div>
                             <div class="modal-body">
-                                
-                                    <img class="about-me-img-element" src="./images/headshot-square.jpg" title="Me" alt="headshot">
+
+                                <img class="about-me-img-element" src="./images/headshot-square.jpg" title="Me" alt="headshot">
                                 
                                 <article class="about-me-element">
                                     <h3 class="about-me-header">Vital Statistics</h3>
@@ -65,28 +66,35 @@
                         </div>
                     </div>
                     
-                    <div class="grid-centering">
-                        <article class="about-me-element">
-                            <h3 class="element-header">Tech Inventory</h3>
-                            <div class="element-list">
-                                <p>Java</p>
-                                <p>Spring</p>
-                                <p>HTML5</p>
-                                <p>CSS3</p>
-                                <p>TDD</p>
+                    <article class="about-me-element tech-inventory">
+                        <h3 class="about-me-header">Tech Inventory</h3>
+                        <div class="carousel-container">
+                            <a class="carousel-prev">&#10094;</a>
+                            <div class="carousel-items">
+                                <p class="fade carousel-current">Java</p>
+                                <p class="fade hidden">Spring</p>
+                                <p class="fade hidden">JPA</p>
+                                <p class="fade hidden">TDD</p>
+                                <p class="fade hidden">HTML</p>
+                                <p class="fade hidden">CSS3</p>
+                                <p class="fade hidden">Javascript</p>
+                                <p class="fade hidden">Thymeleaf</p>
                             </div>
-                        </article>
-                    </div>
-                    <div class="grid-centering">
-                        <article class="about-me-element contact">
-                            <h3 class="element-header">Connect With Me</h3>
-                            <div class="element-list">
-                                <a href="https://github.com/marcbgold"><icon class="fa fa-github" class="icon"></icon> Github</a>
-                                <a href="https://www.linkedin.com/in/marcbgold/"><icon class="fa fa-linkedin" class="icon"></icon> LinkedIn</a>
-                                <a href="mailto:marcbgold2@gmail.com">Email me</a>
-                            </div>
-                        </article>
-                    </div>
+                            <a class="carousel-next">&#10095;</a>
+                        </div>
+                    </article>
+                    
+
+                    
+                    <article class="about-me-element contact">
+                        <h3 class="about-me-header">Connect With Me</h3>
+                        <div class="element-list">
+                            <a href="https://github.com/marcbgold"><icon class="fa fa-github" class="icon"></icon> Github</a>
+                            <a href="https://www.linkedin.com/in/marcbgold/"><icon class="fa fa-linkedin" class="icon"></icon> LinkedIn</a>
+                            <a href="mailto:marcbgold2@gmail.com">Email me</a>
+                        </div>
+                    </article>
+                    
                 </section>
 
                 <section id="projects" class="main-section">

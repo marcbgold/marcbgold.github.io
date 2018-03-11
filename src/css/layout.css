@@ -131,14 +131,9 @@ main {
 	justify-content: center;
 	font-size: 1.05rem;
 	padding: 0.1em;
-	margin-bottom: 5px;
+	margin-bottom: var(--grid-gap);
 	width: 8em;
 }
-
-/*.grid-centering {
-	display: flex;
-	justify-content: center;
-}*/
 
 .about-me-header {
 	align-self: center;
@@ -149,8 +144,6 @@ main {
 	display: grid;
 	grid-template-rows: auto auto;
 	align-items: flex-start;
-	max-height: 310px;
-	max-width: 310px;
 	overflow: hidden;
 	text-align: center;
 }
@@ -167,11 +160,15 @@ main {
 	width: 100%;
 }
 
+.tech-inventory {
+	margin-bottom: var(--grid-gap);
+}
+
 /*projects layout*/
 
 .projects-grid {
 	display: grid;
-	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-columns: 1fr 3fr 1fr;
 	grid-gap: var(--grid-gap);
 }
 

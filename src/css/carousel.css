@@ -1,0 +1,39 @@
+.carousel-container {
+  display: flex;
+  width: 20rem;
+  justify-content: space-between;
+}
+
+.carousel-prev, .carousel-next {
+  width: 2rem;
+  font-size: 1.2em;
+  transition: 0.25s;
+}
+
+.carousel-items p.hidden {
+    display: none;
+    transition: 0.25s;
+}
+
+.carousel-items p {
+  display: block;
+  font-size: 1.2em;
+  transition: 0.25s
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
