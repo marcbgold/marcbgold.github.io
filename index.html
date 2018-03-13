@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/modal.css">
     <link rel="stylesheet" href="./src/css/carousel.css">
+    <link rel="stylesheet" href="./src/css/media-queries.css">
 </head>
 <body>
     <header>
@@ -45,8 +46,8 @@
                     <div class="modal-window">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <span class="modal-close">&times;</span>
                                 <h2>So who is this guy, anyway?</h2>
+                                <span class="modal-close">&times;</span>
                             </div>
                             <div class="modal-body">
 
@@ -94,64 +95,64 @@
                             <a href="mailto:marcbgold2@gmail.com">Email me</a>
                         </div>
                     </article>
-                    
-                </section>
-
-                <section id="projects" class="main-section">
-                    <h2 class="main-section-header">Projects</h2>
-                    <div class="projects-grid">
-                        <div class="projects-content">
-                          <article class="projects-element">
-                            <span class="element-header">
-                                <h3><a href="https://github.com/marcbgold/virtual-pets-amok">Virtual Pet Shelter</a></h3>
-                                <button class="main-section-button project-details-button">Show Details</button>
-                            </span>
-                            <div class="element-list hidden">
-                                <p class="projects-element-description"><strong>Description:</strong> Game where the player is in charge of running a shelter for virtual cats and dogs.  Pets can be either organic or robotic with different stats for each, and will respond to player inputs.  Don't let them get too sick, or the whole shelter will get shut down!</p>
-                                <p><strong>Tools Used:</strong> Java 8, Git, TDD, OOP </p>
-                            </div>
-                            <div class="projects-image">
-                                <img src="./images/pet-shelter.jpg" title="project image" alt="project image">
-                            </div>
-                        </article>
-
-                        <article class="projects-element">
-                            <span class="element-header">
-                                <h3><a href="https://github.com/marcbgold/reviews">Video Game Review Website</a></h3>
-                                <button class="main-section-button project-details-button">Show Details</button>
-                            </span>
-                            <div class="element-list hidden">
-                                <p class="projects-element-description"><strong>Description:</strong> Website housing humorous video game reviews in the form of haikus.  Uses Spring framework to dynamically generate individual review pages from a single HTML template. </p>
-                                <p><strong>Tools Used:</strong> Java 8, Spring, HTML5, Git, TDD, OOP </p>
-                            </div>
-                            <div class="projects-image">
-                                <img src="./images/reviews.jpg" title="project image" alt="project image">
-                            </div>
-                        </article>
-
-                        <article class="projects-element">
-                            <span class="element-header">
-                                <h3><a href="https://github.com/marcbgold/hospital">Hospital Management System</a></h3>
-                                <button class="main-section-button project-details-button">Show Details</button>
-                            </span>
-                            <div class="element-list hidden">
-                                <p class="projects-element-description"><strong>Description:</strong> App demonstrating a simple employee management system for a hospital.  User can search by name or unique ID number, as well as add and remove employees from the roster.  User can also display all employees with specific capabilities.</p>
-                                <p><strong>Tools Used:</strong> Java 8, Git, TDD, OOP </p>
-                            </div>
-                            <div class="projects-image">
-                                <img src="./images/hospital.jpg" title="project image" alt="project image">
-                            </div>
-                        </article>
-                    </div>
-                </div>
+                </div>   
             </section>
-        </main>
 
-        <footer id="footer">
-            <a href="#top">Back to Top</a>
-            <p>©2018</p>
-        </footer>
-    </div>
-    <script src="./src/js/app.js"></script>
+            <section id="projects" class="main-section">
+                <h2 class="main-section-header">Projects</h2>
+                <div class="projects-grid">
+                    <div class="projects-content">
+                      <article class="projects-element">
+                        <span class="element-header">
+                            <h3><a href="https://github.com/marcbgold/virtual-pets-amok">Virtual Pet Shelter</a></h3>
+                            <button class="main-section-button project-details-button">Show Details</button>
+                        </span>
+                        <div class="element-list hidden">
+                            <p class="projects-element-description"><strong>Description:</strong> Game where the player is in charge of running a shelter for virtual cats and dogs.  Pets can be either organic or robotic with different stats for each, and will respond to player inputs.  Don't let them get too sick, or the whole shelter will get shut down!</p>
+                            <p><strong>Tools Used:</strong> Java 8, Git, TDD, OOP </p>
+                        </div>
+                        <div class="projects-image">
+                            <img src="./images/pet-shelter.jpg" title="project image" alt="project image">
+                        </div>
+                    </article>
+
+                    <article class="projects-element">
+                        <span class="element-header">
+                            <h3><a href="https://github.com/marcbgold/reviews">Video Game Review Website</a></h3>
+                            <button class="main-section-button project-details-button">Show Details</button>
+                        </span>
+                        <div class="element-list hidden">
+                            <p class="projects-element-description"><strong>Description:</strong> Website housing humorous video game reviews in the form of haikus.  Uses Spring framework to dynamically generate individual review pages from a single HTML template. </p>
+                            <p><strong>Tools Used:</strong> Java 8, Spring, HTML5, Git, TDD, OOP </p>
+                        </div>
+                        <div class="projects-image">
+                            <img src="./images/reviews.jpg" title="project image" alt="project image">
+                        </div>
+                    </article>
+
+                    <article class="projects-element">
+                        <span class="element-header">
+                            <h3><a href="https://github.com/marcbgold/hospital">Hospital Management System</a></h3>
+                            <button class="main-section-button project-details-button">Show Details</button>
+                        </span>
+                        <div class="element-list hidden">
+                            <p class="projects-element-description"><strong>Description:</strong> App demonstrating a simple employee management system for a hospital.  User can search by name or unique ID number, as well as add and remove employees from the roster.  User can also display all employees with specific capabilities.</p>
+                            <p><strong>Tools Used:</strong> Java 8, Git, TDD, OOP </p>
+                        </div>
+                        <div class="projects-image">
+                            <img src="./images/hospital.jpg" title="project image" alt="project image">
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <a href="#top">Back to Top</a>
+        <p>©2018</p>
+    </footer>
+</div>
+<script src="./src/js/app.js"></script>
 </body>
 </html>

@@ -149,9 +149,10 @@ main {
 }
 
 .about-me-img-element {
+	display: flex;
 	flex-shrink: 1;
 	max-height: 310px;
-	max-width: 310px;
+	max-width: 100%;
 }
 
 .about-me-element img {
