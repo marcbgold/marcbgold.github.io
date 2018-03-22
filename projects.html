@@ -8,90 +8,39 @@
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Mukta+Mahee" rel="stylesheet">
-	<link rel="stylesheet" href="./src/css/layout.css">
-	<link rel="stylesheet" href="./src/css/style.css">
-	<link rel="stylesheet" href="./src/css/modal.css">
-	<link rel="stylesheet" href="./src/css/carousel.css">
+	<link rel="stylesheet" href="./src/css/layout-new.css">
+	<link rel="stylesheet" href="./src/css/style-new.css">
 	<link rel="stylesheet" href="./src/css/media-queries.css">
 </head>
 <body>
-
-	<header>
-		<nav>
-			<img class="nav-icon" src="./images/hamburger-menu-icon.png">
-			<div class="nav-links">
-				<a href="#about-me">About Me</a>
-				<a href="#projects">Projects</a>
-			</div>
-		</nav>
-
-		<div class="header-contact-links">
-			<h2>
-				<a href="https://github.com/marcbgold"><icon class="fa fa-github" class="icon"></icon></a>
-				<a href="https://www.linkedin.com/in/marcbgold/"><icon class="fa fa-linkedin" class="icon"></icon></a>
-				<a href="mailto:marcbgold2@gmail.com"><icon class="fa fa-envelope" class="icon"></icon></a>
-			</h2>
-		</div>
-	</header>
-
-	<div class="projects-container">
-		<main class="front-page-content">
-
-			
-			<section id="projects" class="main-section">
-				<h1 class="about-me-main-header">Projects</h1>
-				<div class="projects-grid">
-					<div class="projects-content">
-						<article class="projects-element">
-							<span class="element-header">
-								<h3><a href="https://github.com/marcbgold/virtual-pets-amok">Virtual Pet Shelter</a></h3>
-								<button class="main-section-button project-details-button">Show Details</button>
-							</span>
-							<div class="element-list hidden">
-								<p class="projects-element-description"><strong>Description:</strong> Game where the player is in charge of running a shelter for virtual cats and dogs.  Pets can be either organic or robotic with different stats for each, and will respond to player inputs.  Don't let them get too sick, or the whole shelter will get shut down!</p>
-								<p><strong>Tools Used:</strong> Java 8, Git, TDD, OOP </p>
-							</div>
-							<div class="projects-image">
-								<img src="./images/pet-shelter.jpg" title="project image" alt="project image">
-							</div>
-						</article>
-
-						<article class="projects-element">
-							<span class="element-header">
-								<h3><a href="https://github.com/marcbgold/reviews">Video Game Review Website</a></h3>
-								<button class="main-section-button project-details-button">Show Details</button>
-							</span>
-							<div class="element-list hidden">
-								<p class="projects-element-description"><strong>Description:</strong> Website housing humorous video game reviews in the form of haikus.  Uses Spring framework to dynamically generate individual review pages from a single HTML template. </p>
-								<p><strong>Tools Used:</strong> Java 8, Spring, HTML5, Git, TDD, OOP </p>
-							</div>
-							<div class="projects-image">
-								<img src="./images/reviews.jpg" title="project image" alt="project image">
-							</div>
-						</article>
-
-						<article class="projects-element">
-							<span class="element-header">
-								<h3><a href="https://github.com/marcbgold/hospital">Hospital Management System</a></h3>
-								<button class="main-section-button project-details-button">Show Details</button>
-							</span>
-							<div class="element-list hidden">
-								<p class="projects-element-description"><strong>Description:</strong> App demonstrating a simple employee management system for a hospital.  User can search by name or unique ID number, as well as add and remove employees from the roster.  User can also display all employees with specific capabilities.</p>
-								<p><strong>Tools Used:</strong> Java 8, Git, TDD, OOP </p>
-							</div>
-							<div class="projects-image">
-								<img src="./images/hospital.jpg" title="project image" alt="project image">
-							</div>
-						</article>
-					</div>
+	<div class="container">
+		<header>
+			<nav>
+				<div class="nav-links">
+					<a href="./about-me.html">About Me</a>
+					<a href="./projects.html">Projects</a>
 				</div>
-			</section>
+			</nav>
+
+			<div class="header-contact-links">
+				<h2>
+					<a href="https://github.com/marcbgold"><icon class="fa fa-github" class="icon"></icon></a>
+					<a href="https://www.linkedin.com/in/marcbgold/"><icon class="fa fa-linkedin" class="icon"></icon></a>
+					<a href="mailto:marcbgold2@gmail.com"><icon class="fa fa-envelope" class="icon"></icon></a>
+				</h2>
+			</div>
+		</header>
+
+		<main class="about-me-main-section">
+			
 		</main>
-
+		
 		<footer id="footer">
-			<a href="#top">Back to Top</a>
-			<p>©2018 Marc Gold</p>
+			<a id="footer-link" href="#top">Back to Top</a>
+			<p>© 2018 Marc Gold</p>
 		</footer>
+	</div>
 
-	</body>
-	</html>
+
+</body>
+</html>

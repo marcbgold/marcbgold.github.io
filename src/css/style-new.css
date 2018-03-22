@@ -24,24 +24,17 @@ nav a:visited,
 .header-contact-links h2 a,
 .header-contact-links h2 a:visited
 footer a,
-footer a:visited {
+footer a:visited,
+#footer-link,
+#footer-link:visited {
 	color: white;
 	transition: 0.25s;
 }
 
 nav a:hover,
-footer a:hover {
-	color: #b3d1ff;
-	transition: 0.25s;
-}
-
-.header-contact-links h2 a,
-.header-contact-links h2 a:visited {
-	color: white;
-	transition: 0.25s;
-}
-
-.header-contact-links h2 a:hover {
-	color: #b3d1ff;
+.header-contact-links h2 a:hover,
+footer a:hover,
+#footer-link:hover {
+	color: #ffe066;
 	transition: 0.25s;
 }
