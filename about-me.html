@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Marc Gold - About Me</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/layout.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/modal.css">
+    <link rel="stylesheet" href="./src/css/carousel.css">
+    <link rel="stylesheet" href="./src/css/media-queries.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="nav-icon" src="./images/hamburger-menu-icon.png">
+            <div class="nav-links hidden">
+                <a href="#about-me">About Me</a>
+                <a href="#projects">Projects</a>
+            </div>
+        </nav>
+
+        <div class="header-contact-links">
+            <h2>
+                <a href="https://github.com/marcbgold"><icon class="fa fa-github" class="icon"></icon></a>
+                <a href="https://www.linkedin.com/in/marcbgold/"><icon class="fa fa-linkedin" class="icon"></icon></a>
+                <a href="mailto:marcbgold2@gmail.com"><icon class="fa fa-envelope" class="icon"></icon></a>
+            </h2>
+        </div>
+    </header>
+
+    <section id="about-me" class="main-section">
+        <h2 class="main-section-header">About Me</h2>
+        <div class="about-me-content">
+            <button class="main-section-button profile-button">View My Bio</button>
+
+            <div class="modal-window">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2>So who is this guy, anyway?</h2>
+                        <span class="modal-close">&times;</span>
+                    </div>
+                    <div class="modal-body">
+
+                        <img class="about-me-img-element" src="./images/headshot-square.jpg" title="Me" alt="headshot">
+                        
+                        <article class="about-me-element">
+                            <h3 class="about-me-header">Vital Statistics</h3>
+                            <div class="element-list bio-list">
+                                <p><strong>Location:</strong> Columbus, OH</p>
+                                <p><strong>Background:</strong> Coder, Math Instructor</p>
+                                <p><strong>School:</strong> We Can Code IT, Ohio State</p>
+                                <p><strong>Companions:</strong> Two orange cats</p>
+                                <p class="bio-mission"><strong>Mission:</strong> Write code that solves problems</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            
+            <article class="about-me-element tech-inventory">
+                <h3 class="about-me-header">Tech Inventory</h3>
+                <div class="carousel-container">
+                    <button class="main-section-button carousel-prev">&#10094;</button>
+                    <div class="carousel-items">
+                        <p class="fade">Java</p>
+                        <p class="fade hidden">Spring</p>
+                        <p class="fade hidden">JPA</p>
+                        <p class="fade hidden">TDD</p>
+                        <p class="fade hidden">HTML</p>
+                        <p class="fade hidden">CSS3</p>
+                        <p class="fade hidden">Javascript</p>
+                        <p class="fade hidden">AJAX</p>
+                        <p class="fade hidden">Thymeleaf</p>
+                    </div>
+                    <button class="main-section-button carousel-next">&#10095;</button>
+                </div>
+            </article>
+            
+
+            
+            <article class="about-me-element contact">
+                <h3 class="about-me-header">Connect With Me</h3>
+                <div class="element-list">
+                    <a href="https://github.com/marcbgold"><icon class="fa fa-github" class="icon"></icon> Github</a>
+                    <a href="https://www.linkedin.com/in/marcbgold/"><icon class="fa fa-linkedin" class="icon"></icon> LinkedIn</a>
+                    <a href="mailto:marcbgold2@gmail.com">Email me</a>
+                </div>
+            </article>
+        </div>   
+    </section>
+</body>
+</html>
