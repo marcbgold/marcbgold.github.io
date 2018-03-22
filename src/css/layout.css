@@ -17,11 +17,11 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 5rem;
+	height: 4rem;
 	width: 100%;
 	position: fixed;
 	z-index: 1;
-	padding: 1rem;
+	padding: 0.5rem 1rem;
 }
 
 nav {
@@ -44,7 +44,7 @@ nav {
 
 nav a {
 	margin: 0 0.1rem;
-	padding: 0.5rem;
+	padding: 0 0.5rem;
 	display: flex;
 	align-items: center;
 }
@@ -76,7 +76,7 @@ nav img {
 }
 
 .header-contact-links h2 a {
-	font-size: 2rem;
+	/*font-size: 2rem;*/
 	margin-left: 1rem;
 }
 
@@ -92,6 +92,7 @@ nav img {
 	margin-top: 5rem;
 }
 
+.front-page-container,
 .about-me-container {
 	display: flex;
 	flex-direction: column;
@@ -99,12 +100,12 @@ nav img {
 	z-index: 0;
 	position: absolute;
 	padding: 3rem 5rem;
-	margin-top: 5rem;
+	margin-top: 4rem;
 }
 
 main {
-	display: grid;
-	grid-column: 2 / 3;
+/*	display: grid;
+	grid-column: 2 / 3;*/
 }
 
 .main-page-title {
@@ -244,6 +245,5 @@ footer {
 	justify-content: space-between;
 	margin-top: 2rem;
 	padding: 2rem;
-	grid-column: 1 / -1;
 	font-size: 1.1em;
 }

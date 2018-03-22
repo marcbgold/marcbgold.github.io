@@ -58,7 +58,8 @@ footer a:hover {
 }
 
 .front-page-container,
-.about-me-container {
+.about-me-container,
+.projects-container {
 	background: linear-gradient(to right, #b3d1ff, white, #b3d1ff);
 }
 

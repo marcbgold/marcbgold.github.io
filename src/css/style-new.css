@@ -1,0 +1,47 @@
+* {
+	font-family: "Mukta Mahee", sans-serif;
+}
+
+.container {
+	background: linear-gradient(to right, #b3d1ff, white, #b3d1ff);
+}
+
+header, footer {
+	color: white;
+	background-color: royalblue;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav {
+	font-size: 1.4rem;
+}
+
+nav a,
+nav a:visited,
+.header-contact-links h2 a,
+.header-contact-links h2 a:visited
+footer a,
+footer a:visited {
+	color: white;
+	transition: 0.25s;
+}
+
+nav a:hover,
+footer a:hover {
+	color: #b3d1ff;
+	transition: 0.25s;
+}
+
+.header-contact-links h2 a,
+.header-contact-links h2 a:visited {
+	color: white;
+	transition: 0.25s;
+}
+
+.header-contact-links h2 a:hover {
+	color: #b3d1ff;
+	transition: 0.25s;
+}
