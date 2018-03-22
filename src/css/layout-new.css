@@ -43,12 +43,25 @@ nav a {
 	align-items: center;
 }
 
-.front-page-main-text {
+.front-page-main-header {
 	text-align: center;
 }
 
-.projects-main-section {
-	position: relative;
+.about-me-main-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.about-me-main-header {
+	margin-top: 2rem;
+}
+
+.profile-pic {
+	max-height: 20vw;
+	max-width: 20vw;
+	margin-bottom: 2rem;
 }
 
 footer {
