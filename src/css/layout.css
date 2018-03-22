@@ -50,6 +50,7 @@ nav a {
 }
 
 nav img {
+	display: none;
 	margin: 0 0.1rem;
 	padding: 0.5rem;	
 }
@@ -88,6 +89,16 @@ nav img {
 	grid-template-columns: 1fr 9fr 1fr;
 	z-index: 0;
 	position: absolute;
+	margin-top: 5rem;
+}
+
+.about-me-container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	z-index: 0;
+	position: absolute;
+	padding: 3rem 5rem;
 	margin-top: 5rem;
 }
 
@@ -131,6 +142,11 @@ main {
 }
 
 /*about me layout*/
+
+.about-me-main-header {
+	align-self: center;
+	font-size: 3em;
+}
 
 .about-me-content {
 	display: flex;

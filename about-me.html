@@ -18,7 +18,7 @@
     <header>
         <nav>
             <img class="nav-icon" src="./images/hamburger-menu-icon.png">
-            <div class="nav-links hidden">
+            <div class="nav-links">
                 <a href="#about-me">About Me</a>
                 <a href="#projects">Projects</a>
             </div>
@@ -33,35 +33,23 @@
         </div>
     </header>
 
-    <section id="about-me" class="main-section">
-        <h2 class="main-section-header">About Me</h2>
+    <div class="about-me-container">
+        <h1 class="about-me-main-header">So who is this guy, anyway?</h1>
         <div class="about-me-content">
-            <button class="main-section-button profile-button">View My Bio</button>
 
-            <div class="modal-window">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h2>So who is this guy, anyway?</h2>
-                        <span class="modal-close">&times;</span>
-                    </div>
-                    <div class="modal-body">
+            <img class="about-me-img-element" src="./images/headshot-square.jpg" title="Me" alt="headshot">
 
-                        <img class="about-me-img-element" src="./images/headshot-square.jpg" title="Me" alt="headshot">
-                        
-                        <article class="about-me-element">
-                            <h3 class="about-me-header">Vital Statistics</h3>
-                            <div class="element-list bio-list">
-                                <p><strong>Location:</strong> Columbus, OH</p>
-                                <p><strong>Background:</strong> Coder, Math Instructor</p>
-                                <p><strong>School:</strong> We Can Code IT, Ohio State</p>
-                                <p><strong>Companions:</strong> Two orange cats</p>
-                                <p class="bio-mission"><strong>Mission:</strong> Write code that solves problems</p>
-                            </div>
-                        </article>
-                    </div>
+            <article class="about-me-element">
+                <h3 class="about-me-header">Vital Statistics</h3>
+                <div class="element-list bio-list">
+                    <p><strong>Location:</strong> Columbus, OH</p>
+                    <p><strong>Background:</strong> Coder, Math Instructor</p>
+                    <p><strong>School:</strong> We Can Code IT, Ohio State</p>
+                    <p><strong>Companions:</strong> Two orange cats</p>
+                    <p class="bio-mission"><strong>Mission:</strong> Write code that solves problems</p>
                 </div>
-            </div>
-            
+            </article>
+
             <article class="about-me-element tech-inventory">
                 <h3 class="about-me-header">Tech Inventory</h3>
                 <div class="carousel-container">
@@ -80,9 +68,9 @@
                     <button class="main-section-button carousel-next">&#10095;</button>
                 </div>
             </article>
-            
 
-            
+
+
             <article class="about-me-element contact">
                 <h3 class="about-me-header">Connect With Me</h3>
                 <div class="element-list">
@@ -92,6 +80,6 @@
                 </div>
             </article>
         </div>   
-    </section>
+    </div>
 </body>
 </html>
