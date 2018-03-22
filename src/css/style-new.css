@@ -11,6 +11,14 @@ header, footer {
 	background-color: royalblue;
 }
 
+header {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer {
+	box-shadow: 4px 6px 4px 8px rgba(0, 0, 0, 0.2), 6px 12px 6px 20px rgba(0, 0, 0, 0.19);
+}
+
 a {
 	text-decoration: none;
 }
