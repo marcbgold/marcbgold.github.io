@@ -4,21 +4,17 @@
     padding: 0;
 }
 
+.container {
+	min-height: 100vh;
+	display: grid;
+	grid-template-rows: 4rem auto 4rem;
+}
+
 header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 4rem;
-	width: 100%;
-	position: fixed;
-	z-index: 1;
 	padding: 0.5rem 1rem;
-}
-
-.container {
-	min-height: 100vh;
-	display: flex;
-	justify-content: center;
 }
 
 .nav-links {
@@ -43,6 +39,7 @@ nav a {
 
 .front-page-main-section {
 	display: flex;
+	justify-content: center;
 	align-items: center;
 }
 
@@ -50,14 +47,13 @@ nav a {
 	text-align: center;
 }
 
+.projects-main-section {
+	position: relative;
+}
+
 footer {
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	left: 0;
 	display: flex;
 	justify-content: space-between;
-	margin-top: 2rem;
 	padding: 1rem 1.5rem;
 	font-size: 1.1em;
 }
