@@ -58,10 +58,33 @@ nav a {
 	margin-top: 2rem;
 }
 
+.about-me-content {
+	display: flex;
+	align-items: center;
+	background-color: white;
+	font-size: 1.2rem;
+}
+
+.about-me-middle-section,
+.about-me-right-section {
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+}
+
+.about-me-bottom-row {
+	flex-direction: column;
+}
+
 .profile-pic {
-	max-height: 20vw;
-	max-width: 20vw;
-	margin-bottom: 2rem;
+	max-height: 15vw;
+	max-width: 15vw;
+	display: inline;
+}
+
+.about-me-top-row-text {
+	display: inline;
+	margin-left: 1rem;
 }
 
 footer {
