@@ -3,22 +3,23 @@
 }
 
 .container {
-	background: linear-gradient(to right, #b3d1ff, white, #b3d1ff);
+	background: #e9ebee; 
+	/*linear-gradient(to right, #b3d1ff, white, #b3d1ff);*/
 }
 
-header, footer {
+header {
 	color: white;
-	background-color: royalblue;
-}
-
-header,
-.about-me-content,
-.projects-element {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background: linear-gradient(180deg, #1f49c7, #7b97ea);
 }
 
 footer {
-	box-shadow: 4px 6px 4px 8px rgba(0, 0, 0, 0.2), 6px 12px 6px 20px rgba(0, 0, 0, 0.19);
+	color: white;
+	background: linear-gradient(0deg, #1f49c7, #7b97ea);
+}
+
+.about-me-content,
+.projects-element {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 a {
