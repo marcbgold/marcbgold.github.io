@@ -59,10 +59,13 @@ and (max-width: 500px) {
 	}
 
 	.about-me-middle-section,
-	.about-me-right-section,
-	.projects-element {
+	.about-me-right-section {
 		margin-left: 0;
 		font-size: 0.8em;
+	}
+
+	.projects-element {
+		font-size: 0.9em;
 	}
 }
 
