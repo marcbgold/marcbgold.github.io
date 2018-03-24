@@ -52,13 +52,12 @@ nav a {
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
-	margin: 5rem 0;
+	margin: 3rem 0;
 }
 
 .about-me-content {
 	display: flex;
 	align-items: center;
-	background-color: white;
 	font-size: 1.2rem;
 }
 
@@ -66,16 +65,22 @@ nav a {
 .about-me-right-section {
 	display: flex;
 	flex-direction: column;
-	padding: 1rem;
+	margin-left: 2rem;
 }
 
-.about-me-bottom-row {
-	flex-direction: column;
+.about-me-middle-section p,
+.about-me-right-section p {
+	margin-bottom: 0.5rem;
+}
+
+.about-me-middle-section > p,
+.about-me-right-section > p {
+	margin-top: 0.5rem;
 }
 
 .profile-pic {
-	max-height: 15vw;
-	max-width: 15vw;
+	max-height: 17vw;
+	max-width: 17vw;
 	display: inline;
 }
 
