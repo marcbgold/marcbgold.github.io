@@ -106,7 +106,7 @@ nav a {
 .projects-element {
 	display: grid;
 	grid-template-rows: auto auto;
-	padding: 1rem 1.3rem;
+	padding: 1rem 1.4rem;
 }
 
 .projects-element-description {

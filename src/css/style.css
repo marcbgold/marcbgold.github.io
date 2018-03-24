@@ -77,3 +77,9 @@ footer a:hover,
 	border-width: thin;
 	border-color: lightgray;
 }
+
+.hidden-footer-link {
+	opacity: 0;
+	pointer-events: none;
+   	cursor: default;
+}
