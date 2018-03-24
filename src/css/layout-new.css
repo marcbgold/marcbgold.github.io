@@ -52,10 +52,7 @@ nav a {
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
-}
-
-.about-me-main-header {
-	margin-top: 2rem;
+	margin: 5rem 0;
 }
 
 .about-me-content {
