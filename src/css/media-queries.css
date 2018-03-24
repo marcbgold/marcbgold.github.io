@@ -1,15 +1,6 @@
 @media only screen 
 and (max-width: 812px) { 
 
-	.nav-links {
-		font-size: 0.9rem;
-		flex-direction: column;
-	}
-
-	.header-contact-links {
-		font-size: 0.7rem;
-	}
-
 	.about-me-main-section {
 		padding: 3vw;
 		margin: 3vw 0;
@@ -29,7 +20,7 @@ and (max-width: 812px) {
 		max-height: 50vw;
 		max-width: 50vw;
 		align-self: center;
-
+		margin-bottom: 0.5rem;
 	}
 
 	.projects-main-header {
@@ -48,8 +39,60 @@ and (max-width: 812px) {
 	}
 
 	.hidden-footer-link {
-	opacity: 100;
-	pointer-events: all;
-   	cursor: pointer;
+		opacity: 100;
+		pointer-events: all;
+		cursor: pointer;
+	}
 }
+
+@media only screen 
+and (max-width: 500px) { 
+
+	.profile-pic {
+		max-height: 70vw;
+		max-width: 70vw;
+	}
+
+	.about-me-main-header,
+	.projects-main-header {
+		margin-bottom: 0.5rem;
+	}
+
+	.about-me-middle-section,
+	.about-me-right-section,
+	.projects-element {
+		margin-left: 0;
+		font-size: 0.8em;
+	}
+}
+
+@media only screen 
+and (max-width: 425px) {
+
+	.nav-links {
+		font-size: 1.1rem;
+	}
+
+	.header-contact-links {
+		font-size: 0.8rem;
+	}
+}
+
+@media only screen 
+and (max-width: 335px) {
+
+	.nav-links {
+		font-size: 1rem;
+		flex-direction: column;
+	}
+
+	.header-contact-links {
+		font-size: 0.7rem;
+	}
+
+	.about-me-main-header,
+	.projects-main-header {
+		font-size: 1.3em;
+		margin-bottom: 0.5rem;
+	}
 }
