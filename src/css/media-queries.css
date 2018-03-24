@@ -1,6 +1,55 @@
-@media screen and (max-width: 640px) {
-  .container {
-/*    grid-template-columns: 1fr;
-    grid-template-rows: auto;*/
-  }
+@media only screen 
+and (max-width: 812px) { 
+
+	.nav-links {
+		font-size: 0.9rem;
+		flex-direction: column;
+	}
+
+	.header-contact-links {
+		font-size: 0.7rem;
+	}
+
+	.about-me-main-section {
+		padding: 3vw;
+		margin: 3vw 0;
+	}
+	
+	.about-me-main-header {
+		text-align: center;
+	}
+
+	.about-me-content {
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+
+	.profile-pic {
+		max-height: 50vw;
+		max-width: 50vw;
+		align-self: center;
+
+	}
+
+	.projects-main-header {
+		margin: 3vw 0;
+	}
+
+	.projects-main-section {
+		display: flex;
+		flex-direction: column;
+		padding: 3vw;
+		margin-bottom: 3vw;
+	}
+
+	footer {
+		font-size: 0.8rem;
+	}
+
+	.hidden-footer-link {
+	opacity: 100;
+	pointer-events: all;
+   	cursor: pointer;
+}
 }
