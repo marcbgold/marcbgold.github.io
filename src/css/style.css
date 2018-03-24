@@ -2,12 +2,18 @@
 	font-family: "Mukta Mahee", sans-serif;
 }
 
+.container {
+	background: linear-gradient(to right, #b3d1ff, white, #b3d1ff);
+}
+
 header, footer {
 	color: white;
 	background-color: royalblue;
 }
 
-header, .about-me-element, .projects-element {
+header,
+.about-me-content,
+.projects-element {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -27,83 +33,47 @@ nav a,
 nav a:visited,
 .header-contact-links h2 a,
 .header-contact-links h2 a:visited
-footer a {
+footer a,
+footer a:visited,
+#footer-link,
+#footer-link:visited {
 	color: white;
+	transition: 0.25s;
+}
+
+.projects-element-link,
+.projects-element-link a:visited {
+	color: #6600cc;
 	transition: 0.25s;
 }
 
 nav a:hover,
-footer a:hover {
-	color: #b3d1ff;
+.header-contact-links h2 a:hover,
+footer a:hover,
+#footer-link:hover,
+.projects-element-link:hover {
+	color: #ffe066;
 	transition: 0.25s;
-}
-
-.nav-links.hidden {
-	transition: 0.25s;
-}
-
-.nav-links {
-	transition: 0.25s;
-}
-
-.header-contact-links h2 a,
-.header-contact-links h2 a:visited {
-	color: white;
-	transition: 0.25s;
-}
-
-.header-contact-links h2 a:hover {
-	color: #b3d1ff;
-	transition: 0.25s;
-}
-
-.front-page-container,
-.about-me-container,
-.projects-container {
-	background: linear-gradient(to right, #b3d1ff, white, #b3d1ff);
-}
-
-.main-section {
-	color: royalblue;
-	font-size: 1.2em;
-}
-
-.element-list {
-	color: black;
-} 
-
-.main-section a {
-	color: #6600cc;
-}
-
-.main-section a:visited {
-	color: #6600cc;
-}
-
-.main-section a:hover {
-	text-decoration: none;
-	color: #ffcc00;
 }
 
 .about-me-content {
-	font-size: 0.9em;
+	background-color: white;
+	border-style: solid;
+	border-width: 2px;
+	border-color: lightgray;
+	border-radius: 1rem;
 }
 
-.about-me-element, .projects-element {
-	padding: 1rem;
+.projects-element {
 	border-style: solid;
 	border-width: thin;
 	border-color: lightgray;
 	background-color: white;
+	border-radius: 1rem;
 }
 
-.about-me-element img, .projects-element img {
+.projects-element img {
 	border-style: solid;
 	border-width: thin;
 	border-color: lightgray;
-}
-
-.main-section-button {
-	color: white;
-	background-color: royalblue;
 }
